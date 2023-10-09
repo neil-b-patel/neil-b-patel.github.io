@@ -55,7 +55,7 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    display: inline-block;
 }
 
 .logo:hover {
