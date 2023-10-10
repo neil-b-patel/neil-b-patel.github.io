@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -12,7 +12,9 @@ html {
 }
 
 p {
+    font-size: 1rem;
     color: rgb(85, 85, 85);
+    line-height: 1.5rem;
 }
 
 /* TRANSITIONS */
@@ -38,7 +40,7 @@ nav {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 a {
@@ -185,23 +187,25 @@ section {
 }
 
 .section__text__p1 {
+    font-size: 1.35rem;
     text-align: center;
 }
 
 .section__text__p2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .title {
-    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
     text-align: center;
 }
 
 #socials-container {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     gap: 1rem;
 }
 
@@ -209,7 +213,7 @@ section {
 
 .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 2.5rem;
 }
 
 /* BUTTONS */
@@ -221,10 +225,11 @@ section {
 }
 
 .btn {
+    font-size: 1rem;
     font-weight: 600;
     transition: all 300ms ease;
     padding: 1rem;
-    width: 8rem;
+    width: 10rem;
     border-radius: 2rem;
 }
 
@@ -282,6 +287,12 @@ section {
     border-radius: 2rem;
 }
 
+.about-subtitle {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 .arrow {
     position: absolute;
     right: -5rem;
@@ -316,7 +327,7 @@ section {
     position: relative;
 }
 
-.experience-sub-title {
+.experience-subtitle {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
@@ -355,11 +366,6 @@ article .icon {
     position: relative;
 }
 
-.color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
-}
-
 .project-img {
     border-radius: 2rem;
     width: 90%;
@@ -374,6 +380,12 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+/* BLOG SECTION */
+
+#blog {
+    position: relative;
 }
 
 /* CONTACT SECTION */
