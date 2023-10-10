@@ -25,25 +25,21 @@
         <link rel="stylesheet" href="mediaqueries.css" />
     </head>
     <body>
-        <nav id="desktop-nav">
-            <div class="logo">
-                <img src="./assets/logo-simple-bw.png" alt="Logo" />
-            </div>
+        <nav id="desktop-nav" class="header__nav">
+            <img src="./assets/logo.png" alt="Logo" class="logo" />
             <div>
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
-        <nav id="hamburger-nav">
-            <div class="logo">
-                <img src="./assets/logo-simple-bw.png" alt="Logo" />
-            </div>
+        <nav id="hamburger-nav" class="header__nav">
+            <img src="./assets/logo.png" alt="Logo" class="logo" />
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
@@ -124,17 +120,16 @@
                             <h3 class="about-subtitle">Education</h3>
                             <p>
                                 B.Sc. in Computer Science <br />
-                                Davidson College '22
+                                Davidson College <br />
+                                Class of 2022
                             </p>
                         </div>
                     </div>
                     <div class="text-container">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sunt facilis, ab quo,
-                            cupiditate velit tempore iste unde omnis aperiam doloribus cumque eius. Veniam dignissimos
-                            eius, quod, officia officiis molestiae facilis consequuntur id distinctio autem soluta
-                            consequatur esse, corporis ipsam veritatis. Repellendus explicabo quia porro ad eius
-                            laudantium voluptatibus sapiente.
+                        <p class="about-text">
+                            I want to learn. build. explore. create. experiment. innovate. <br />
+                            "That's easier said than done." <br />
+                            You're right! How about we work together towards those goals?
                         </p>
                     </div>
                 </div>
@@ -225,9 +220,9 @@
                 <div class="about-containers">
                     <div class="details-container">
                         <div class="article-container">
-                            <img src="./assets/project-1.png" alt="Project One" class="project-img" />
+                            <img src="./assets/open-sesame.png" alt="Open Sesame logo" class="project-img" />
                         </div>
-                        <h2 class="experience-sub-title project-title">Project One</h2>
+                        <h2 class="experience-sub-title project-title">Open Sesame</h2>
                         <div class="btn-container">
                             <button
                                 class="btn btn-color-2 project-btn"
@@ -246,19 +241,19 @@
 
                     <div class="details-container">
                         <div class="article-container">
-                            <img src="./assets/project-2.png" alt="Project Two" class="project-img" />
+                            <img src="./assets/ashen-wordbooks.png" alt="Ashen Wordbooks logo" class="project-img" />
                         </div>
-                        <h2 class="experience-sub-title project-title">Project Two</h2>
+                        <h2 class="experience-sub-title project-title">Ashen Wordbooks</h2>
                         <div class="btn-container">
                             <button
                                 class="btn btn-color-2 project-btn"
-                                onclick="location.href='https:/\/www.github.com'"
+                                onclick="location.href='https:/\/github.com/neil-b-patel/ashen-wordbooks'"
                             >
                                 GitHub
                             </button>
                             <button
                                 class="btn btn-color-2 project-btn"
-                                onclick="location.href='https:/\/www.github.com'"
+                                onclick="location.href='https:/\/neil-b-patel.github.io/ashen-wordbooks/'"
                             >
                                 Live Demo
                             </button>
@@ -267,19 +262,19 @@
 
                     <div class="details-container">
                         <div class="article-container">
-                            <img src="./assets/project-3.png" alt="Project Three" class="project-img" />
+                            <img src="./assets/wtfAnime.png" alt="wtfAnime screenshot" class="project-img" />
                         </div>
-                        <h2 class="experience-sub-title project-title">Project Three</h2>
+                        <h2 class="experience-sub-title project-title">wtfAnime</h2>
                         <div class="btn-container">
                             <button
                                 class="btn btn-color-2 project-btn"
-                                onclick="location.href='https:/\/www.github.com'"
+                                onclick="location.href='https:/\/github.com/neil-b-patel/wtfAnime'"
                             >
                                 GitHub
                             </button>
                             <button
                                 class="btn btn-color-2 project-btn"
-                                onclick="location.href='https:/\/www.github.com'"
+                                onclick="location.href='https:/\/neil-b-patel.github.io/wtfAnime'"
                             >
                                 Live Demo
                             </button>
@@ -295,8 +290,14 @@
             <h1 class="title">Blog</h1>
             <div class="about-containers">
                 <div class="details-container">
-                    Visit my blog!
-                    <a href="https://blog.neilbpatel.com/">The Algomist</a>
+                    <div class="article-container">
+                        <img
+                            src="./assets/the-algomist-logo.png"
+                            alt="The Algomist blog banner"
+                            class="blog-img"
+                            onclick="location.href='https:/\/blog.neilbpatel.com/'"
+                        />
+                    </div>
                 </div>
             </div>
             <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'" />
