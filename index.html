@@ -7,16 +7,6 @@
         <title>Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
             rel="stylesheet"
@@ -26,7 +16,9 @@
     </head>
     <body>
         <nav id="desktop-nav" class="header__nav">
-            <img src="./assets/logo.png" alt="Logo" class="logo" />
+            <a href="#profile" class="nav-link">
+                <img src="./assets/logo.png" alt="Logo" class="logo" />
+            </a>
             <div>
                 <ul class="nav-links">
                     <li><a href="#about" class="nav-link">About</a></li>
@@ -39,7 +31,7 @@
         </nav>
 
         <nav id="hamburger-nav" class="header__nav">
-            <img src="./assets/logo.png" alt="Logo" class="logo" />
+            <img src="./assets/logo.png" alt="Logo" class="logo" onclick="location.href='./'" />
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
@@ -72,28 +64,25 @@
             <div class="section__text">
                 <div class="section__text__p1">Hello, I'm</div>
                 <h1 class="title">Neil B Patel</h1>
-                <p class="section__text__p2">Backend Engineer</p>
+                <p class="subtitle">Backend Engineer</p>
 
                 <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="window.open('./assets/PatelNeilResume.pdf')">
+                    <button class="btn btn-color-1" onclick="window.open('./assets/PatelNeilResume.pdf')">
                         Resume
                     </button>
-                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                    <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
                 </div>
 
-                <div id="socials-container">
-                    <img
-                        src="./assets/linkedin.png"
-                        alt="My LinkedIn Profile"
-                        class="icon"
-                        onclick="location.href='https:/\/www.linkedin.com/in/neilbpatel'"
-                    />
-                    <img
-                        src="./assets/github.png"
-                        alt="My GitHub Profile"
-                        class="icon"
-                        onclick="location.href='https:/\/github.com/neil-b-patel'"
-                    />
+                <div class="socials-container">
+                    <a href="https://www.linkedin.com/in/neilbpatel">
+                        <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon linkedin" />
+                        <div class="caption">LinkedIn</div>
+                    </a>
+
+                    <a href="https://github.com/neil-b-patel">
+                        <img src="./assets/github.png" alt="My GitHub Profile" class="icon github" />
+                        <div class="caption">GitHub</div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -222,10 +211,10 @@
                         <div class="article-container">
                             <img src="./assets/open-sesame.png" alt="Open Sesame logo" class="project-img" />
                         </div>
-                        <h2 class="experience-sub-title project-title">Open Sesame</h2>
+                        <h2 class="project-title">Open Sesame</h2>
                         <div class="btn-container">
                             <button
-                                class="btn btn-color-2 project-btn"
+                                class="btn btn-color-1 project-btn"
                                 onclick="location.href='https:/\/github.com/neil-b-patel/open-sesame'"
                             >
                                 GitHub
@@ -234,7 +223,7 @@
                                 class="btn btn-color-2 project-btn"
                                 onclick="location.href='https:/\/github.com/neil-b-patel/open-sesame#introduction'"
                             >
-                                Live Demo
+                                Demo
                             </button>
                         </div>
                     </div>
@@ -243,10 +232,10 @@
                         <div class="article-container">
                             <img src="./assets/ashen-wordbooks.png" alt="Ashen Wordbooks logo" class="project-img" />
                         </div>
-                        <h2 class="experience-sub-title project-title">Ashen Wordbooks</h2>
+                        <h2 class="project-title">Ashen Wordbooks</h2>
                         <div class="btn-container">
                             <button
-                                class="btn btn-color-2 project-btn"
+                                class="btn btn-color-1 project-btn"
                                 onclick="location.href='https:/\/github.com/neil-b-patel/ashen-wordbooks'"
                             >
                                 GitHub
@@ -255,7 +244,7 @@
                                 class="btn btn-color-2 project-btn"
                                 onclick="location.href='https:/\/neil-b-patel.github.io/ashen-wordbooks/'"
                             >
-                                Live Demo
+                                Demo
                             </button>
                         </div>
                     </div>
@@ -264,10 +253,10 @@
                         <div class="article-container">
                             <img src="./assets/wtfAnime.png" alt="wtfAnime screenshot" class="project-img" />
                         </div>
-                        <h2 class="experience-sub-title project-title">wtfAnime</h2>
+                        <h2 class="project-title">wtfAnime</h2>
                         <div class="btn-container">
                             <button
-                                class="btn btn-color-2 project-btn"
+                                class="btn btn-color-1 project-btn"
                                 onclick="location.href='https:/\/github.com/neil-b-patel/wtfAnime'"
                             >
                                 GitHub
@@ -276,7 +265,7 @@
                                 class="btn btn-color-2 project-btn"
                                 onclick="location.href='https:/\/neil-b-patel.github.io/wtfAnime'"
                             >
-                                Live Demo
+                                Demo
                             </button>
                         </div>
                     </div>
@@ -290,10 +279,10 @@
             <h1 class="title">Blog</h1>
             <div class="about-containers">
                 <div class="details-container">
-                    <div class="article-container">
+                    <div class="article-container article-container__blog">
                         <img
                             src="./assets/the-algomist-logo.png"
-                            alt="The Algomist blog banner"
+                            alt="The Algomist blog logo"
                             class="blog-img"
                             onclick="location.href='https:/\/blog.neilbpatel.com/'"
                         />
@@ -308,12 +297,12 @@
             <h1 class="title">Contact Me</h1>
             <div class="contact-info-upper-container">
                 <div class="contact-info-container">
-                    <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon" />
-                    <p><a href="mailto:neilpatel1203@gmail.com">neilpatel1203@gmail.com</a></p>
+                    <img src="./assets/email.png" alt="Email Icon" class="icon email-icon" />
+                    <p class="contact"><a href="mailto:neilpatel1203@gmail.com">neilpatel1203@gmail.com</a></p>
                 </div>
                 <div class="contact-info-container">
                     <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon" />
-                    <p><a href="https://www.linkedin.com/in/neilbpatel">LinkedIn</a></p>
+                    <p class="contact-info-container"><a href="https://www.linkedin.com/in/neilbpatel">LinkedIn</a></p>
                 </div>
             </div>
         </section>
