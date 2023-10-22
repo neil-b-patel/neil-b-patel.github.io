@@ -8,9 +8,22 @@
     }
 
     #profile,
+    #experience,
+    #projects,
+    #blog {
+        margin-top: calc(var(--scroll-padding));
+    }
+
+    #about,
+    #experience,
+    #projects,
+    #blog {
+        height: fit-content;
+    }
+
+    #profile,
     .section-container {
         display: block;
-        margin-top: calc(var(--scroll-padding));
     }
 
     .profile__pic {
@@ -19,14 +32,22 @@
         margin-bottom: 5rem;
     }
 
+    .socials-container {
+        justify-content: center;
+    }
+
     .about-pic {
         width: 300;
         height: 300px;
+        margin-top: 5rem;
     }
 
-    #experience,
-    .experience-details-container {
-        margin-top: 2rem;
+    #experience {
+        margin-top: calc(var(--scroll-padding) + 1vh);
+    }
+
+    .project-title {
+        font-size: 1.75rem;
     }
 
     .arrow {
@@ -55,6 +76,12 @@
 
     .text-container .about-containers {
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project-title {
+        font-size: 1.25rem;
     }
 }
 
@@ -106,6 +133,10 @@
         width: auto;
         height: 30vh;
         justify-content: center;
+    }
+
+    .project-title {
+        font-size: 1rem;
     }
 
     .title {
