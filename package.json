@@ -1,15 +1,15 @@
 {
-    "name": "portfolio",
-    "version": "0.1.0-SNAPSHOT",
-    "description": "Neil B Patel's portfolio",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/neil-b-patel/portfolio.git"
-    },
-    "author": "Neil B Patel",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/neil-b-patel/portfolio/issues"
-    },
-    "homepage": "https://github.com/neil-b-patel/portfolio#readme"
+  "name": "portfolio",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "Neil B Patel's portfolio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neil-b-patel/portfolio.git"
+  },
+  "author": "Neil B Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neil-b-patel/portfolio/issues"
+  },
+  "homepage": "https://github.com/neil-b-patel/portfolio#readme"
 }
