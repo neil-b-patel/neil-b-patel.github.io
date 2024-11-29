@@ -1,0 +1,68 @@
+- key: Name
+  value: Neil B Patel
+- key: Description
+  value:
+    - ( ・_・)
+    - ( ・_・)
+    - ( ・_・)
+    - ( ・_・)
+    - ( ・_・)
+    - Yo! ( ・_・)ノ
+    - Yo! ( ・_・)ノ
+    - Yo! ( ・_・)ノ
+    - Seems like you made it here.
+    - Take a look around (⌐■_■)
+    - Take a look around (⌐■_■)
+    - Take a look around (⌐■_■)
+    - Take a look around (⌐■_■)
+    - It's not too shabby, right?
+    - 
+    -
+    - Well, maybe it's a <i>bit</i> shabby... ╭( ๐_๐)╮
+    - Well, maybe it's a <i>bit</i> shabby... ╭( ๐_๐)╮
+    - Regardless.
+    - Welcome to my lil' corner of the internet!
+    - Stay as long as you'd like ... and no longer. (｡•̀ᴗ-)✧
+    - Stay as long as you'd like ... and no longer. (｡•̀ᴗ-)✧
+    - Stay as long as you'd like ... and no longer. (｡•̀ᴗ-)✧
+    - 
+    -
+    -
+    -
+    -
+    -
+    - Ope! (°o°；）
+    - Ope! (°o°；）
+    - Ope! (°o°；）
+    - Seems like we have another visitor that I need to welcome.
+    - I'll have to leave myself on repeat while I go check on them.
+    - But thanks for stopping by!
+    - Seeyah ヾ(＾ ∇ ＾)!
+    - Seeyah ヾ(＾ ∇ ＾)!
+    - Seeyah ヾ(＾ ∇ ＾)!
+    - Seeyah ヾ(＾ ∇ ＾)!
+    - Seeyah ヾ(＾ ∇ ＾)!
+    - Seeyah ヾ(＾ ∇ ＾)!
+    - 
+    - 
+    -
+    -
+    -
+    -
+  typed: true
+- key: CV
+  value: resume.pdf
+  url: /PatelNeilBResume.pdf
+- key: Address
+  value:
+    Seattle, WA, USA
+- key: Profiles
+  value:
+    - value: LinkedIn
+      url: https://www.linkedin.com/in/neilbpatel/
+    - value: GitHub
+      url: https://github.com/neil-b-patel
+- key: credits
+  value:
+    - value: theme
+      url: https://github.com/piazzai/hacked-jekyll

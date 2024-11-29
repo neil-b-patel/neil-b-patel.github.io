@@ -1,0 +1,22 @@
+title: Neil B Patel
+description: Just another corner of the internet
+url: https://neil-b-patel.com
+
+theme: hacked-jekyll
+
+exclude:
+  - LICENSE
+  - README.md
+  - vendor/
+  - assets/
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
