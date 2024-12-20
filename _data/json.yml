@@ -4,50 +4,35 @@
   value:
     - ( ・_・)
     - ( ・_・)
-    - ( ・_・)
-    - ( ・_・)
-    - ( ・_・)
+    - ( ╹ -╹)?
+    - ( ╹ -╹)?
     - Yo! ( ・_・)ノ
     - Yo! ( ・_・)ノ
-    - Yo! ( ・_・)ノ
-    - Seems like you made it here.
-    - Take a look around (⌐■_■)
-    - Take a look around (⌐■_■)
+    - Glad you could make it here.
     - Take a look around (⌐■_■)
     - Take a look around (⌐■_■)
     - It's not too shabby, right?
     - 
-    -
-    - Well, maybe it's a <i>bit</i> shabby... ╭( ๐_๐)╮
-    - Well, maybe it's a <i>bit</i> shabby... ╭( ๐_๐)╮
+    - Well, maybe it's a <i>bit</i> shabby ╭( ๐_๐)╮
+    - Well, maybe it's a <i>bit</i> shabby ╭( ๐_๐)╮
     - Regardless.
-    - Welcome to my lil' corner of the internet!
-    - Stay as long as you'd like ... and no longer. (｡•̀ᴗ-)✧
-    - Stay as long as you'd like ... and no longer. (｡•̀ᴗ-)✧
-    - Stay as long as you'd like ... and no longer. (｡•̀ᴗ-)✧
-    - 
+    - Welcome to my lil' corner of the web!
+    - Stay as long as you'd like. (•ᴗ-)⟡
+    - Stay as long as you'd like. (•ᴗ-)⟡
     -
     -
-    -
-    -
-    -
-    - Ope! (°o°；）
-    - Ope! (°o°；）
-    - Ope! (°o°；）
-    - Seems like we have another visitor that I need to welcome.
-    - I'll have to leave myself on repeat while I go check on them.
+    - ( ╹ -╹)?
+    - ( ╹ -╹)?
+    - Woah! (°o°；）
+    - Seems we've got a new visitor.
+    - I've got to go welcome them.
+    - Don't fret.
+    - I'll leave myself on repeat.
+    - That way you don't feel too lonely.
     - But thanks for stopping by!
     - Seeyah ヾ(＾ ∇ ＾)!
     - Seeyah ヾ(＾ ∇ ＾)!
-    - Seeyah ヾ(＾ ∇ ＾)!
-    - Seeyah ヾ(＾ ∇ ＾)!
-    - Seeyah ヾ(＾ ∇ ＾)!
-    - Seeyah ヾ(＾ ∇ ＾)!
     - 
-    - 
-    -
-    -
-    -
     -
   typed: true
 - key: CV
@@ -58,10 +43,20 @@
     Seattle, WA, USA
 - key: Profiles
   value:
+    - value: Blog
+      url: https://blog.neilbpatel.com/
     - value: LinkedIn
       url: https://www.linkedin.com/in/neilbpatel/
     - value: GitHub
       url: https://github.com/neil-b-patel
+- key: Things I Like
+  value:
+    - value: Bu-Beleza Pura~Taji Mahal"Live2008" Masayoshi Takanaka 高中正義
+      url: https://youtu.be/cTDK5Bluh5A?si=pkYxF7vtuA6lf2MW
+    - value: Is Your Red The Same as My Red?
+      url: https://youtu.be/evQsOFQju08?si=FB8lh-QzCTQyyqcn
+    - value: The Art of Code - Dylan Beattie
+      url: https://youtu.be/6avJHaC3C2U?si=HzVta3tz-ZZnSBjy
 - key: credits
   value:
     - value: theme
